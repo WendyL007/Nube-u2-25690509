@@ -27,6 +27,6 @@
 * **OpenWeatherMap:** Solamente se tomaron los datos de `weather[0].description` y `main.temp`.
 
 ### ¿Qué porcentaje de los bytes recibidos fue innecesario?
-En la consulta a PokéAPI, la carga útil recibida fue de aproximadamente **300.5 KB** (300,521 bytes). La información utilizada en el script apenas representa unos **100 bytes**.
+En la consulta a PokéAPI, la carga útil recibida fue de aproximadamente **300.5 KB**. La información utilizada en el script apenas representa unos **100 bytes**.
 
 Esto significa que **más del 99.9% de los bytes recibidos fueron innecesarios** para la tarea. Este resultado evidencia el problema de sobre-descarga de datos característico de la arquitectura REST tradicional.
